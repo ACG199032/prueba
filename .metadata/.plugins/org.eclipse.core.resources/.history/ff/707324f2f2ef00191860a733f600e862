@@ -1,0 +1,46 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class ej12 {
+
+	public static void main(String[] args) {
+		
+		Scanner e=new Scanner(System.in);
+		int n; int na; int i=0; int v1=0; int v2=0; int v3=0;  int v4=0; int v5=0; int v6=0;
+		System.out.println("Jueguemos a los dados, introduzca el numero de tiradas que desea hacer");
+		n=e.nextInt();
+
+		do {
+			
+			System.out.println("No se puede introducir numeros negativos, ni 0");
+			n=e.nextInt();
+			
+		}while(n<=0);
+		
+		do {
+			
+			na= (int) (Math.random()*10)+1;
+			i++;
+			
+			if(na<=1) {
+				v1++;
+			}else if (na<=2) {
+				v2++;
+			}else if (na<=3) {
+				v3++;
+			}else if (na<=4) {
+				v4++;
+			}else if (na<=5) {
+				v5++;
+			}else if (na<=6) {
+				v6++;
+			}
+			
+		}while(n>i);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class ej12 {
+
+	public static void main(String[] args) {
+		
+		Scanner e=new Scanner(System.in);
+		int n; int na; int i=0; int v1=0; int v2=0; int v3=0;  int v4=0; int v5=0; int v6=0;
+		System.out.println("Jueguemos a los dados, introduzca el numero de tiradas que desea hacer");
+		n=e.nextInt();
+
+		do {
+			
+			System.out.println("No se puede introducir numeros negativos, ni 0");
+			n=e.nextInt();
+			
+		}while(n<=0);
+		
+		do {
+			
+		
+			
+		}while(n>i);
+
+	}
+
+}

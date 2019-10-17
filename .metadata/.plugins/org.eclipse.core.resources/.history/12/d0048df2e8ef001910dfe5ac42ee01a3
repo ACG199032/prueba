@@ -1,0 +1,24 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class ej11 {
+
+	public static void main(String[] args) {		//probar los numeros (17296 y 18416) o (220 y 284)
+		
+		Scanner e=new Scanner(System.in);
+		int n1; int n2; int i=1; int c=1;
+		System.out.println("Introduzca varios números para comprobar si son numeros amigos");
+		
+		System.out.println("Introduzca el primer numero");
+		n1=e.nextInt();
+		
+		System.out.println("Introduzca el pr numero");
+		n2=e.nextInt();
+		
+		do {
+			
+			
+		}while (n1<=i);
+	}
+}

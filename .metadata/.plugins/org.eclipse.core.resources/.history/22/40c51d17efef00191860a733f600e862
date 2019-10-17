@@ -1,0 +1,20 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class ej12 {
+
+	public static void main(String[] args) {
+		
+		Scanner e=new Scanner(System.in);
+		int n; int n2; int x=1; int c=1; int div1=0; int div2=0;
+		System.out.println("Jueguemos a los dados, introduzca el numero de tiradas que desea hacer");
+		n=e.nextInt();
+
+		do {
+			
+			
+		}while(i<n);
+	}
+
+}
